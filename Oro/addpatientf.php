@@ -1,16 +1,14 @@
 <?php
-
-    include "config.php";
-
     session_start();
     if(!isset($_SESSION["username"])){
     header("Location: admin.php");
     }
-
+    
     if(isset($_POST['cno'])){
         $sends = $_POST['cno'];
         header("Location: generatepdf.php?idz=".$sends);
     }
+    include "newconfig.php";
 
 ?>
 

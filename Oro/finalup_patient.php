@@ -1,6 +1,6 @@
 <?php
 
-include "config.php";
+include "newconfig.php";
 
 
 $update_id = $_POST['update_id'];

@@ -1,6 +1,7 @@
 <?php
 
-  include "config.php";
+  //ob_start();
+  //include "config.php";
 
   session_start();
   if(isset($_SESSION["username"])){
@@ -18,7 +19,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home</title>
+  <title>Admin</title>
 
   <!-- bootstrap css link  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -70,7 +71,7 @@
     </nav>
 
     <div class="buttons d-md-flex align-items-center ms-md-5 text-center">
-      <a href="home.html#appointment" class="btn btn-outline-light apt">Appointment</a>
+      <a href="home.php#appointment" class="btn btn-outline-light apt">Appointment</a>
     </div>
   </div>
 

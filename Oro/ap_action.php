@@ -1,6 +1,8 @@
 <?php
+    
+    ob_start();
 
-    include "config.php";
+    include "newconfig.php";
 
     if(isset($_POST['ap_id'])){
 

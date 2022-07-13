@@ -1,6 +1,5 @@
 <?php
-
-    include "config.php";
+    include "newconfig.php";
 
     $name = $_POST['p_name'];
     $ap_date = $_POST['ap_date'];

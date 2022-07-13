@@ -1,6 +1,12 @@
 <?php
+session_start();
+  if(!isset($_SESSION["username"])){
+  header("Location: admin.php");
+  }
+  ob_start();
 
-    include "config.php";
+    
+    include "newconfig.php";
 
 
     require __DIR__."/vendor/autoload.php";
