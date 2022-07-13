@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Caveat:wght@600&family=Exo&family=Merriweather:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@font-face {
+    font-family: fiz;
+    src: url(../fonts/FjallaOne-Regular.ttf);
+  }
+@font-face {
+    font-family: tall;
+    src: url(../fonts/Tall\ Film.ttf);
+  }
+
+
+.dotborder{
+    border-bottom: 8px dotted black;
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.title{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+.col-4 h3{ 
+    overflow: hidden;
+}
+
+
+body{
+    font-family: fiz;
+    overflow-x: hidden;
+}
+
+/* width */
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+body::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+body::-webkit-scrollbar-thumb {
+    background: #203043; 
+}
+  
+
+.header{
+    background-color: #203043;
+}
+.sub{
+    background-color: #203043;
+    color: white;
+    border-radius: 8px;
+    
+}
+.sub:hover{
+    background-color: #273b52;
+ 
+    
+    color: white;
+}
+
+.navbar{
+    background-color: transparent;
+    /* font-family: tall; */
+}
+
+.apt{
+    border-radius: 10px;
+}
+
+.logo-name h1{
+    font-family: fiz;
+}
+
+.left-section h1{
+    color: #203043;
+    font-family: fiz;
+    font-size: 60px;
+}
+
+.left-section a{
+    background-color: #203043;
+    color: white;
+    border-radius: 10px;
+    font-family: fiz;
+
+}
+
+.captions{
+    font-family: fiz;
+    font-size: 35px;
+}
+.bottom-line{
+    width: 80px;
+    border-bottom: 7px dotted rgb(44, 43, 43);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.carousel-inner{
+    width: 100%;
+    height: 400px;
+}
+.carousel-item{
+    height: 400px;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.7;
+}
+.carousel-caption .bottom-line{
+    border-color: white;
+}
+.carousel-caption{
+   position: absolute;
+   top: 0;
+}
+    
+.im img{
+    border-radius: 100%;
+}
+
+.bt-line{
+    border: 2px solid rgb(248, 84, 8);
+    width: 70px;
+
+}
+
+#meter{
+    width: 450px;
+    height: 20px;
+    
+    
+}
+
+.footers{
+    background-color: rgb(19, 18, 18);
+}
+
+
+#meter::-webkit-meter-optimum-value {
+    background-color: #203043;
+  }
+
+
+.menus a{
+    margin-left: 25px;
+    display: block;
+    text-decoration: none;
+    color: rgb(158, 155, 155);
+}
+
+.get:hover{
+    color: whitesmoke;
+
+}
+
+.social-links a{
+    margin-right: 13px;
+}
+.segment{
+    width: 250px;
+}
+
+.p-info{
+    width: 600px;
+    box-shadow: 3px 3px 10px rgb(157, 156, 156);
+
+}
+
+.info{
+    width: 95%;
+    box-shadow: 3px 3px 10px rgb(157, 156, 156);
+    margin: 0 auto;
+    height: 320px;
+
+}
+.info-1{
+    width: 97%;
+    box-shadow: 3px 3px 10px rgb(157, 156, 156);
+    margin: 0 auto;
+    height: 320px;
+
+}
+.info-2{
+    width: 97%;
+    box-shadow: 3px 3px 10px rgb(157, 156, 156);
+    margin: 0 auto;
+   
+
+}
+.info-3{
+    width: 35%;
+    box-shadow: 3px 3px 10px rgb(157, 156, 156);
+    margin: 0 auto;
+   
+
+}
+.p-info .head-sec{
+    background-color: #203043;
+    color: white;
+  
+}
+.info .head-sec{
+    background-color: #203043;
+    color: white;
+  
+}
+.info-3 .head-sec{
+    background-color: #203043;
+    color: white;
+  
+}
+.info-teeth{
+    width: 42%;
+}
+.info-teeth-2{
+    width: 100%;
+}
+
+.info-1 .head-sec{
+    background-color: #203043;
+    color: white;
+  
+}
+.info-2 .head-sec{
+    background-color: #203043;
+    color: white;
+  text-align: center;
+}
+.info-teeth-2 .head-sec{
+    background-color: #0562d4;
+}
+.info-teeth-2 .head-sec-2{
+    background-color: #050a59;
+}
+.info-2 .head-sec-3{
+    background-color: #050a59;
+}
+
+.uni-color{
+    background-color: #203043;
+    color: white;
+
+}
+.uni-color:hover{
+
+    color: white;
+
+}
+
+
+
+/* Resposive Design  */
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+
+
+    .left-section h1{
+        font-size: 35px;
+    }
+
+    .right-section img{
+        width: 300px;
+        height: auto;
+        margin-top: 30px;
+    }
+    .section-2{
+        text-align: center;
+    }
+    .section1{
+        text-align: center;
+    }
+    .left-part img{
+        width: 300px;
+        height: auto;
+        margin-bottom: 50px;
+    }
+    .right-part{
+        width: 400px;
+        text-align: center;
+    }
+    #meter{
+        width: 320px;
+        height: 20px;
+        
+        
+    }
+    .right-part p{
+        margin-bottom: 60px;
+    }
+    .footers .col-md-5{
+        margin-bottom: 30px;
+    }
+    .footers .col-md-3{
+        margin-bottom: 30px;
+    }
+    .buttons{
+        display: none;
+    }
+    .ap-form{
+        text-align: center;
+    }
+    .ap{
+        display: flex;
+        justify-content: center;
+
+    }
+    .segment{
+        margin-bottom: 20px;
+    }
+    .carousel-inner{
+        width: 100%;
+        height: 220px;
+    }
+    .carousel-item{
+        height: 220px;
+    }
+    .captions{
+        font-family: fiz;
+        font-size: 15px;
+    }
+    .carousel-caption .bottom-line{
+        display: none;
+    }
+    .texts p,.texts h6{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 7px;
+    }
+    .im img{
+        height: 60px;
+        width: 60px;
+    }
+    .info-3{
+        width: 95%;
+
+    }
+    .info-2{
+        width: 98%;
+
+    }
+    
+    .info{
+        height: auto;
+        margin-bottom: 20px;
+
+    }
+    .info-teeth{
+        width: 100%;
+    }
+ 
+}
